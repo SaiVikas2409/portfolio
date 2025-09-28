@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="css/style.css" />
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+        <nav class="nav">
+    <div id="name">Sai Vikas</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">My Projects</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+        <div class="icons"> 
+            <button><i class="fa-brands fa-github social-icon"></i></button> 
+        <button><i class="fa-solid fa-envelope social-icon"></i></button>
+        <button><i class="fa-brands fa-linkedin social-icon"></i></button>
+        
+         
+        </div>
+    </nav>
+        
+    <section class="about" id="about"> 
+        <div class="about-container"> <h1 class="helo"> HELLO EVERY ONE!</h1>
+          <p>
+             I’m <b> RACHAKONDA SAI VIKAS</b>, an aspiring <b>Frontend  Developer</b> with a passion for creating clean, responsive, and user-friendly websites. 
+             in HTML, CSS, and JavaScript, I enjoy turning ideas into interactive digital experiences. I’m eager to keep learning modern frameworks and best practices 
+             while building projects that blend functionality with great design.
+            </p>
+            <button id="RESUME" aria-label="Download Resume">Resume<i class="fa-solid fa-circle-down"></i></button>
+         </div>
+          
+          <img class="img" src="vikas generated.png" alt="vikas">
+       
+    </section>
+<section class="skill" id="skill">
+    
+    <div class="skill-domain-box">
+        <h3 class="domain-title">Programming & Data Science</h3>
+        <div class="skill-bubbles-container">
+            <div class="skill-bubble">Java</div>
+            <div class="skill-bubble">Python</div>
+            <div class="skill-bubble">C Programming</div>
+            <div class="skill-bubble">Machine Learning</div>
+            <div class="skill-bubble">MySQL</div>
+        </div>
+    </div>
+
+    <div class="skill-domain-box">
+        <h3 class="domain-title">Web Development</h3>
+        <div class="skill-bubbles-container">
+            <div class="skill-bubble">  HTML</div>
+             <div class="skill-bubble">CSS</div>
+              <div class="skill-bubble">JavaScript</div>
+        </div>
+    </div>
+
+    <div class="skill-domain-box">
+        <h3 class="domain-title">Data Visualization</h3>
+        <div class="skill-bubbles-container">
+            <div class="skill-bubble">Power BI</div>
+            <div class="skill-bubble">Tableau</div>
+            <div class="skill-bubble">Excel</div>
+        </div>
+    </div>
+
+    <div class="skill-domain-box">
+        <h3 class="domain-title">Tools</h3>
+        <div class="skill-bubbles-container">
+            <div class="skill-bubble">VsCode</div>
+            <div class="skill-bubble">GitHub</div>
+            <div class="skill-bubble">Jupyter</div>
+            <div class="skill-bubble">Google Colab</div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="project" id="project"> 
+    <h2 class="section-title">My Projects</h2>
+    
+    <article class="project-card">
+        <h3 class="project-title">Project 1: YouTube  Home Page Clone</h3>
+        <p class="project-description">Cloning the YouTube homepage is a front-end project focused on layout and design. You use HTML to structure the page's components like the header and video grid, and CSS to style them. </p>
+        <div class="project-links">
+            <a href="#" class="project-link" target="_blank">Live Demo</a>
+            <a href="#" class="project-link" target="_blank">GitHub Repo</a>
+        </div>
+    </article>
+
+    <article class="project-card">
+        <h3 class="project-title">Project 2: Responsive CSS Sidebar Menu</h3>
+        <p class="project-description">This project is a responsive sidebar menu, created using a CSS technique called the "checkbox hack" to control its visibility without using JavaScript. The HTML includes a hidden checkbox and two labels that act as the open and close buttons.</p>
+        <div class="project-links">
+           <a href="https://cssproject-blue.vercel.app/" class="project-link" target="_blank">Live Demo</a>
+            <a href="https://github.com/SaiVikas2409/cssproject" class="project-link" target="_blank">GitHub Repo</a>
+        </div>
+    </article>
+    
+</section>
+
+ <section class="connect" id="connect">
+        <h1>Let's Connect</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+            </div>
+            <button type="submit" class="send-button">Send Message</button>
+            <p id="formStatus" class="form-status"></p>
+        </form>
+    </section>
+
+ <section class=" contact" id="contact"> 
+       <div class="info"> <h2> Contact Information</h2></div>
+       <div class=" info-me">
+        <ul> 
+            <li><i class="fa-solid fa-m"></i> saivikasrachakonda@gmail.com</li>
+            <li><i class="fa-solid fa-mobile-screen"></i> 9494205343</li>
+            <li><i class="fa-solid fa-location-dot"></i>Karimnagar, Telangana- 505001</li>
+        </ul>
+       <h4 id="h4"> Open For Internships and Full time  opportunities</h4>
+
+       <div class="contact-me">
+        <h3 id="h3"> Contact me</h3>
+        <div class="contact-icon"> 
+            <button><i class="fa-brands fa-github social-icon"></i></button>
+             <button><i class="fa-brands fa-linkedin social-icon"></i></button>
+     
+        </div>
+           
+       </div>
+</section> 
+    <script src="Script.js"></script>
+</body>
+</html>
